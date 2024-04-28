@@ -50,10 +50,18 @@ function playGame(){
             }
         }
 
-    for(let round = 1; round <= 10; round++){
+    for(let round = 1; round <= 5; round++){
         playRound();
         console.log(`YOUR SCORE => ${humanScore}`);
         console.log(`COMPUTER SCORE => ${computerScore}`);
+    }
+    while(round = 5){
+        if(humanScore === computerScore){
+            console.log("ITS A DRAW");
+        }else if(humanScore > computerScore){
+            console.log("YOU ARE THE WINNER");
+        }else console.log("HAHAHA TRY AGAIN");
+        break;
     }
 }
 
