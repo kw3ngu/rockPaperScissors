@@ -70,3 +70,9 @@ section {
     margin-top: 16px;
     margin-bottom: 75px;
 }
+.greentext {
+    color: green;
+}
+.redtext {
+    color: red;
+}
