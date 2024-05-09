@@ -3,6 +3,7 @@
         <head>
             <meta charset="utf-8">
             <title>RockPaperScisssor</title>
+            <script src="rps.js" defer></script>
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -26,17 +27,18 @@
                             </div>
                         </div>
                         <div class="score">
-                            <p>0</p>
-                            <p>:</p>
-                            <p>0</p>
+                            <p id="player">0</p>
+                            <p >:</p>
+                            <p id="computer">0</p>
                         </div>
+                        <span id="compDisplay"></span>
                     </div>
-                    <p class="result">YOU WIN!!</p>
+                    <p class="result"></p>
                     <p class="=others">Make your choice</p>
                     <div class="choices">
-                        <p>✊</p>
-                        <p>👋</p>
-                        <p>✌️</p>
+                        <p id="rock">✊</p>
+                        <p id="paper">👋</p>
+                        <p id="scissors">✌️</p>
                     </div>
                 </section>
             </div>
